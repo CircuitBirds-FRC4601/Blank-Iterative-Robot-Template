@@ -1,0 +1,39 @@
+/*
+ * Logitech Attack 3 Joystick Layout and commands
+ */
+
+X Axis -------------------- testStick->GetX();
+Y Axis -------------------- testStick->GetY();
+Throttle ------------------ testStick->GetThrottle();
+Trigger ------------------- testStick->GetTrigger();
+Thumb Bottom -------------- testStick->GetRawButton(2);
+Thumb Top ----------------- testStick->GetRawButton(3);
+Thumb Left ---------------- testStick->GetRawButton(4);
+Thumb Right --------------- testStick->GetRawButton(5);
+Base Left Top ------------- testStick->GetRawButton(6);
+Base Left Bottom ---------- testStick->GetRawButton(7);
+Base Bottom Left ---------- testStick->GetRawButton(8);
+Base Bottom Right --------- testStick->GetRawButton(9);
+Base Right Bottom --------- testStick->GetRawButton(10);
+Base Right Top ------------ testStick->GetRawButton(11);
+
+/*
+ * Logitech Dual Action Gamepad Layout and commands
+ */
+
+Left X Axis --------------- testPad->GetLeftX();
+Left Y Axis --------------- testPad->GetLeftY();
+Right X Axis -------------- testPad->GetRightX();
+Right Y Axis -------------- testPad->GetRightY();
+Right Pad Left ------------ testPad->getNumberedButton(1);
+Right Pad Down ------------ testPad->getNumberedButton(2);
+Right Pad Right ----------- testPad->getNumberedButton(3);
+Right Pad Up -------------- testPad->getNumberedButton(4);
+Left Bumper --------------- testPad->getNumberedButton(5);
+Right Bumper -------------- testPad->getNumberedButton(6);
+Left Trigger -------------- testPad->getNumberedButton(7);
+Right Trigger ------------- testPad->getNumberedButton(8);
+Select -------------------- testPad->getNumberedButton(9);
+Start --------------------- testPad->getNumberedButton(10);
+Left Stick Push ----------- testPad->getLeftPush();
+Right Stick Push ---------- testPad->getRightPush();
